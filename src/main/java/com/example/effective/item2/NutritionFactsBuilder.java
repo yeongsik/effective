@@ -1,6 +1,10 @@
 package com.example.effective.item2;
 
 public class NutritionFactsBuilder {
+    
+    /*
+    점층적 생성자 패턴과 자바빈즈 ( 셋 메서드 ) 패턴의 장점을 가져온 빌더 패턴
+     */
     private final int servingSize;
     private final int servings;
     private final int calories;
